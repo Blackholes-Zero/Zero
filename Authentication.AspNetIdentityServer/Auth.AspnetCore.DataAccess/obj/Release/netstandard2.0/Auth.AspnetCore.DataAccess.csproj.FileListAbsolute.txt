@@ -1,0 +1,9 @@
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\bin\Release\netstandard2.0\Auth.AspnetCore.DataAccess.deps.json
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\bin\Release\netstandard2.0\Auth.AspnetCore.DataAccess.dll
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\bin\Release\netstandard2.0\Auth.AspnetCore.DataAccess.pdb
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\obj\Release\netstandard2.0\Auth.AspnetCore.DataAccess.csprojAssemblyReference.cache
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\obj\Release\netstandard2.0\Auth.AspnetCore.DataAccess.csproj.CoreCompileInputs.cache
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\obj\Release\netstandard2.0\Auth.AspnetCore.DataAccess.AssemblyInfoInputs.cache
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\obj\Release\netstandard2.0\Auth.AspnetCore.DataAccess.AssemblyInfo.cs
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\obj\Release\netstandard2.0\Auth.AspnetCore.DataAccess.dll
+E:\MyWork\踏雪寻梅\Authentication.AspNetIdentityServer\Auth.AspnetCore.DataAccess\obj\Release\netstandard2.0\Auth.AspnetCore.DataAccess.pdb

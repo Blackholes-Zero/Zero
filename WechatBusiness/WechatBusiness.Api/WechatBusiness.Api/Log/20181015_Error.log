@@ -1,0 +1,6 @@
+2018-10-15 08:57:42,635 线程ID:[13] 日志级别：ERROR 出错类：AutoMapper.ConfigurationValidator property:[(null)] - 错误描述：WechatBusiness.Api.ViewModels.LogModel 
+2018-10-15 08:59:36,981 线程ID:[11] 日志级别：ERROR 出错类：AutoMapper.ConfigurationValidator property:[(null)] - 错误描述：WechatBusiness.Api.ViewModels.LogModel 
+2018-10-15 09:57:02,942 线程ID:[6] 日志级别：ERROR 出错类：AutoMapper.ConfigurationValidator property:[(null)] - 错误描述：WechatBusiness.Api.ViewModels.LogModel 
+2018-10-15 10:50:29,319 线程ID:[6] 日志级别：ERROR 出错类：AutoMapper.ConfigurationValidator property:[(null)] - 错误描述：WechatBusiness.Api.ViewModels.LogModel 
+2018-10-15 10:54:03,666 线程ID:[10] 日志级别：ERROR 出错类：AutoMapper.ConfigurationValidator property:[(null)] - 错误描述：WechatBusiness.Api.ViewModels.LogModel 
+2018-10-15 11:06:30,011 线程ID:[6] 日志级别：ERROR 出错类：AutoMapper.ConfigurationValidator property:[(null)] - 错误描述：WechatBusiness.Api.ViewModels.LogModel 

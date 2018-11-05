@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+    <PackageReference Include="Castle.Core" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WechatBusiness.Api.Commons\WechatBusiness.Api.Commons.csproj" />
+    <ProjectReference Include="..\WechatBusiness.Entities\WechatBusiness.Entities.csproj" />
+    <ProjectReference Include="..\WechatBusiness.IRepository\WechatBusiness.IRepository.csproj" />
+    <ProjectReference Include="..\WechatBusiness.IService\WechatBusiness.IService.csproj" />
+    <ProjectReference Include="..\WechatBusiness.Repository\WechatBusiness.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

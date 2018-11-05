@@ -1,0 +1,1 @@
+2018-10-18 09:42:20,907 线程ID:[24] 日志级别：ERROR 出错类：Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch+<ExecuteAsync>d__32 property:[(null)] - 错误描述：WechatBusiness.Api.ViewModels.LogModel 

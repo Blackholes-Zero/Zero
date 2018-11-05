@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Api", "WechatBusiness.Api\WechatBusiness.Api.csproj", "{66E5A763-6460-4CC9-8967-D92A965CFE0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{6EE4DE11-D4C1-4947-A155-5B0C7879B8DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BussinessLayer", "BussinessLayer", "{3B704134-F225-4E13-BE48-513B24DA2E2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataWarehouse", "DataWarehouse", "{C01495E9-3F3B-4348-9D2C-CBD08460E000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resoureces", "Resoureces", "{591692C6-F223-44F8-BA87-52394F80B270}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.DataSource", "WechatBusiness.DataSource\WechatBusiness.DataSource.csproj", "{73529090-0879-46A7-8721-997A6201723B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Entities", "WechatBusiness.Entities\WechatBusiness.Entities.csproj", "{F51F946F-9BE0-4193-98DD-58C9E3014F24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.IRepository", "WechatBusiness.IRepository\WechatBusiness.IRepository.csproj", "{6FA1B41D-69EB-4C07-BC5D-EB9DD6C06E3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Repository", "WechatBusiness.Repository\WechatBusiness.Repository.csproj", "{DA335E0F-7C4C-41D8-8642-C4CC3258E382}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.IService", "WechatBusiness.IService\WechatBusiness.IService.csproj", "{6F7EA141-AD4E-4EEC-8FFD-6D853C06EE5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Service", "WechatBusiness.Service\WechatBusiness.Service.csproj", "{04CE00A4-F82F-47A8-9B3C-99B0E99A6AE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Api.Commons", "WechatBusiness.Api.Commons\WechatBusiness.Api.Commons.csproj", "{DF0B61E3-3246-4A7D-B0C0-4171467E0C05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Api.ViewModels", "WechatBusiness.Api.ViewModels\WechatBusiness.Api.ViewModels.csproj", "{8035B9DC-FEB9-44EE-B365-1A62341BB467}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Api.Controllers", "WechatBusiness.Api.Controllers\WechatBusiness.Api.Controllers.csproj", "{D90DD5BF-F752-46EA-A2B2-AB69B2EC81DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{713D65DC-03B6-40C3-A691-31DDB111051F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Framework", "..\..\NetCore.Framework\NetCore.Framework\NetCore.Framework.csproj", "{2DF53010-905F-4A6D-97D1-65B71DF083EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatBusiness.Api.AutoMappingProfiles", "WechatBusiness.Api.AutoMappingProfiles\WechatBusiness.Api.AutoMappingProfiles.csproj", "{8A576158-BA26-4183-9C90-D2C5A534856B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66E5A763-6460-4CC9-8967-D92A965CFE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E5A763-6460-4CC9-8967-D92A965CFE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E5A763-6460-4CC9-8967-D92A965CFE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E5A763-6460-4CC9-8967-D92A965CFE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73529090-0879-46A7-8721-997A6201723B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73529090-0879-46A7-8721-997A6201723B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73529090-0879-46A7-8721-997A6201723B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73529090-0879-46A7-8721-997A6201723B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51F946F-9BE0-4193-98DD-58C9E3014F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51F946F-9BE0-4193-98DD-58C9E3014F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51F946F-9BE0-4193-98DD-58C9E3014F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51F946F-9BE0-4193-98DD-58C9E3014F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA1B41D-69EB-4C07-BC5D-EB9DD6C06E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA1B41D-69EB-4C07-BC5D-EB9DD6C06E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA1B41D-69EB-4C07-BC5D-EB9DD6C06E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA1B41D-69EB-4C07-BC5D-EB9DD6C06E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA335E0F-7C4C-41D8-8642-C4CC3258E382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA335E0F-7C4C-41D8-8642-C4CC3258E382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA335E0F-7C4C-41D8-8642-C4CC3258E382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA335E0F-7C4C-41D8-8642-C4CC3258E382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7EA141-AD4E-4EEC-8FFD-6D853C06EE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7EA141-AD4E-4EEC-8FFD-6D853C06EE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7EA141-AD4E-4EEC-8FFD-6D853C06EE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7EA141-AD4E-4EEC-8FFD-6D853C06EE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04CE00A4-F82F-47A8-9B3C-99B0E99A6AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CE00A4-F82F-47A8-9B3C-99B0E99A6AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CE00A4-F82F-47A8-9B3C-99B0E99A6AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CE00A4-F82F-47A8-9B3C-99B0E99A6AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0B61E3-3246-4A7D-B0C0-4171467E0C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0B61E3-3246-4A7D-B0C0-4171467E0C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0B61E3-3246-4A7D-B0C0-4171467E0C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0B61E3-3246-4A7D-B0C0-4171467E0C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8035B9DC-FEB9-44EE-B365-1A62341BB467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8035B9DC-FEB9-44EE-B365-1A62341BB467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8035B9DC-FEB9-44EE-B365-1A62341BB467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8035B9DC-FEB9-44EE-B365-1A62341BB467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90DD5BF-F752-46EA-A2B2-AB69B2EC81DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90DD5BF-F752-46EA-A2B2-AB69B2EC81DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90DD5BF-F752-46EA-A2B2-AB69B2EC81DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90DD5BF-F752-46EA-A2B2-AB69B2EC81DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF53010-905F-4A6D-97D1-65B71DF083EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF53010-905F-4A6D-97D1-65B71DF083EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF53010-905F-4A6D-97D1-65B71DF083EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF53010-905F-4A6D-97D1-65B71DF083EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A576158-BA26-4183-9C90-D2C5A534856B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A576158-BA26-4183-9C90-D2C5A534856B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A576158-BA26-4183-9C90-D2C5A534856B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A576158-BA26-4183-9C90-D2C5A534856B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73529090-0879-46A7-8721-997A6201723B} = {6EE4DE11-D4C1-4947-A155-5B0C7879B8DB}
+		{F51F946F-9BE0-4193-98DD-58C9E3014F24} = {6EE4DE11-D4C1-4947-A155-5B0C7879B8DB}
+		{6FA1B41D-69EB-4C07-BC5D-EB9DD6C06E3D} = {C01495E9-3F3B-4348-9D2C-CBD08460E000}
+		{DA335E0F-7C4C-41D8-8642-C4CC3258E382} = {C01495E9-3F3B-4348-9D2C-CBD08460E000}
+		{6F7EA141-AD4E-4EEC-8FFD-6D853C06EE5F} = {3B704134-F225-4E13-BE48-513B24DA2E2F}
+		{04CE00A4-F82F-47A8-9B3C-99B0E99A6AE5} = {3B704134-F225-4E13-BE48-513B24DA2E2F}
+		{DF0B61E3-3246-4A7D-B0C0-4171467E0C05} = {591692C6-F223-44F8-BA87-52394F80B270}
+		{8035B9DC-FEB9-44EE-B365-1A62341BB467} = {591692C6-F223-44F8-BA87-52394F80B270}
+		{D90DD5BF-F752-46EA-A2B2-AB69B2EC81DD} = {591692C6-F223-44F8-BA87-52394F80B270}
+		{2DF53010-905F-4A6D-97D1-65B71DF083EA} = {713D65DC-03B6-40C3-A691-31DDB111051F}
+		{8A576158-BA26-4183-9C90-D2C5A534856B} = {591692C6-F223-44F8-BA87-52394F80B270}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5D2911F-3F65-4138-83F7-1A87A163C6E7}
+	EndGlobalSection
+EndGlobal

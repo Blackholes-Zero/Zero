@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WechatBusiness.Api.Commons\WechatBusiness.Api.Commons.csproj" />
+    <ProjectReference Include="..\WechatBusiness.DataSource\WechatBusiness.DataSource.csproj" />
+    <ProjectReference Include="..\WechatBusiness.Entities\WechatBusiness.Entities.csproj" />
+    <ProjectReference Include="..\WechatBusiness.IRepository\WechatBusiness.IRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel.Core">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.server.kestrel.core\2.1.1\lib\netcoreapp2.1\Microsoft.AspNetCore.Server.Kestrel.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
