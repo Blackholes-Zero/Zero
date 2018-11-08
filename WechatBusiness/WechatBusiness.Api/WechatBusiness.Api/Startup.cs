@@ -10,6 +10,7 @@ using Autofac.Extensions.DependencyInjection;
 using AutoMapper;
 using Castle.DynamicProxy;
 using FluentScheduler;
+using Hangfire;
 using IdentityServer4.AccessTokenValidation;
 using log4net;
 using log4net.Config;
@@ -37,6 +38,7 @@ using WechatBusiness.Api.AutoMappingProfiles;
 using WechatBusiness.Api.Commons;
 using WechatBusiness.Api.Commons.AppSetting;
 using WechatBusiness.Api.Commons.TaskServer;
+using WechatBusiness.Api.Commons.TaskServer.Hangfire;
 using WechatBusiness.Api.Controllers;
 using WechatBusiness.Api.Filter;
 using WechatBusiness.DataSource;
@@ -145,6 +147,9 @@ namespace WechatBusiness.Api
                 c.OperationFilter<HttpHeaderOperation>(); // 添加httpHeader参数
             });
 
+            //Hangfire
+            services.AddHangfire(x => x.UseSqlServerStorage(Configuration.GetConnectionString("DefaultConnection")));
+
             //Area
             var baseController = typeof(BaseController);
             var controllerAssembly = baseController.GetTypeInfo().Assembly;
@@ -228,6 +233,13 @@ namespace WechatBusiness.Api
             {
                 app.UseHsts();
             }
+
+            //Hangfire
+            app.UseHangfireDashboard();//启用服务
+            app.UseHangfireServer();// 启用hangfire面板
+
+            RecurringJob.AddOrUpdate<HangfireTestJob>(p => p.Execute(), Cron.Minutely());
+            //BackgroundJob.Enqueue<SomeClass>(i => i.SomeMethod(someParams))
 
             //config
             ContainerRepository.ConfigurationRepository = Configuration;
