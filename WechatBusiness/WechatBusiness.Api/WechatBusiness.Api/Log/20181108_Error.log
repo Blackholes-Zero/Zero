@@ -1,0 +1,2 @@
+2018-11-08 14:20:37,532 线程ID:[11] 日志级别：ERROR 出错类：WechatBusiness.Api.Commons.TaskServer.Jobs.SampleJob property:[(null)] - 错误描述：开始定时任务了，现在时间是：2018/11/8 14:20:37 
+2018-11-08 14:22:04,694 线程ID:[6] 日志级别：ERROR 出错类：WechatBusiness.Api.Commons.TaskServer.Jobs.SampleJob property:[(null)] - 错误描述：开始定时任务了，现在时间是：2018/11/8 14:22:04 

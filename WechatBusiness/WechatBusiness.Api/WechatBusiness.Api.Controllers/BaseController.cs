@@ -9,5 +9,11 @@ namespace WechatBusiness.Api.Controllers
     [EnableCors("CoresDomain")]
     public class BaseController : ControllerBase
     {
+        public int Num { get; set; }
+
+        public BaseController(int _num)
+        {
+            this.Num = _num;
+        }
     }
 }

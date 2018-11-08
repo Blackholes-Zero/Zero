@@ -34,7 +34,7 @@ namespace WechatBusiness.Api.Controllers.Account
         private readonly IMapper _mapper;
         private readonly ICacheHelper _cacheHelper;
 
-        public AccountController(IAccountService accountService, IHostingEnvironment environment, IMapper mapper, ICacheHelper cacheHelper)
+        public AccountController(IAccountService accountService, IHostingEnvironment environment, IMapper mapper, ICacheHelper cacheHelper) : base(0)
         {
             this._accountService = accountService;
             this._environment = environment;
@@ -109,7 +109,7 @@ namespace WechatBusiness.Api.Controllers.Account
         {
             var model = new TechChangeSeachModel();
             var list = new List<ChilItems>();
-            list.Add(new ChilItems() { Id = 1, Title = "A", IsSelect = false });
+            list.Add(new ChilItems() { Id = Num, Title = "A", IsSelect = false });
             list.Add(new ChilItems() { Id = 2, Title = "B", IsSelect = false });
             list.Add(new ChilItems() { Id = 3, Title = "c", IsSelect = false });
             list.Add(new ChilItems() { Id = 4, Title = "D", IsSelect = false });

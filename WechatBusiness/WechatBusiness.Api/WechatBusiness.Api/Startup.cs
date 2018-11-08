@@ -9,6 +9,7 @@ using Autofac.Configuration;
 using Autofac.Extensions.DependencyInjection;
 using AutoMapper;
 using Castle.DynamicProxy;
+using FluentScheduler;
 using IdentityServer4.AccessTokenValidation;
 using log4net;
 using log4net.Config;
@@ -35,6 +36,7 @@ using Swashbuckle.AspNetCore.Swagger;
 using WechatBusiness.Api.AutoMappingProfiles;
 using WechatBusiness.Api.Commons;
 using WechatBusiness.Api.Commons.AppSetting;
+using WechatBusiness.Api.Commons.TaskServer;
 using WechatBusiness.Api.Controllers;
 using WechatBusiness.Api.Filter;
 using WechatBusiness.DataSource;
@@ -207,6 +209,10 @@ namespace WechatBusiness.Api
             builder.Register(c => new AopInterceptor());
             builder.RegisterModule(module);
             this.Container = builder.Build();
+
+            //FluentScheduler  --Hangfire
+            JobManager.Initialize(new TaskBaseRegistry());
+            JobManager.Stop();
 
             return new AutofacServiceProvider(this.Container); ;
         }

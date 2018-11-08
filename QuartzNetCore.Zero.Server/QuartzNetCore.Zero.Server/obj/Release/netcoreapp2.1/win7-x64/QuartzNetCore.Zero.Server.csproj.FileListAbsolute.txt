@@ -1,0 +1,16 @@
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\hostpolicy.dll
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\hostfxr.dll
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.exe
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\log4net.config
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\quartz.config
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\quartz_jobs.xml
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.deps.json
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.runtimeconfig.json
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.runtimeconfig.dev.json
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.dll
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.pdb
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.csproj.CoreCompileInputs.cache
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.AssemblyInfoInputs.cache
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.AssemblyInfo.cs
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.dll
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Release\netcoreapp2.1\win7-x64\QuartzNetCore.Zero.Server.pdb

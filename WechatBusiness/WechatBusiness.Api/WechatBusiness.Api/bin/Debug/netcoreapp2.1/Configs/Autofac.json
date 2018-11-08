@@ -1,0 +1,10 @@
+﻿{
+  "modules": [
+    {
+      "type": "WechatBusiness.Service.ServiceModule, WechatBusiness.Service"
+    },
+    {
+      "type": "WechatBusiness.Repository.RepositoryModule, WechatBusiness.Repository"
+    }
+  ]
+}

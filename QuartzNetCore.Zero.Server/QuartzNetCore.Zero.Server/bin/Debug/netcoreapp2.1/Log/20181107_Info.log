@@ -1,0 +1,636 @@
+2018-11-07 16:15:30,288 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Creating new instance of server type 'QuartzNetCore.Zero.Server.Service.QuartzServer, QuartzNetCore.Zero.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' 
+2018-11-07 16:15:30,463 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Instance successfully created 
+2018-11-07 16:15:31,172 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz.NET properties loaded from configuration file 'E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config' 
+2018-11-07 16:15:31,287 线程ID:[1] 日志级别：WARN  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：RemotingSchedulerExporter configuration was ignored as Remoting is not supported 
+2018-11-07 16:15:31,293 线程ID:[1] 日志级别：DEBUG 出错类：Quartz.Simpl.TaskSchedulingThreadPool property:[(null)] - 错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018-11-07 16:15:31,340 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.SchedulerSignalerImpl property:[(null)] - 错误描述：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018-11-07 16:15:31,383 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Quartz Scheduler v.3.0.7.0 created. 
+2018-11-07 16:15:31,388 线程ID:[1] 日志级别：INFO  出错类：Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin property:[(null)] - 错误描述：Registering Quartz Job Initialization Plug-in. 
+2018-11-07 16:15:31,393 线程ID:[1] 日志级别：INFO  出错类：Quartz.Simpl.RAMJobStore property:[(null)] - 错误描述：RAMJobStore initialized. 
+2018-11-07 16:15:31,398 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-11-07 16:15:31,400 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler 'ServerScheduler' initialized 
+2018-11-07 16:15:31,401 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler version: 3.0.7.0 
+2018-11-07 16:15:31,483 线程ID:[1] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsing XML file: E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml with systemId: ~/quartz_jobs.xml 
+2018-11-07 16:15:31,516 线程ID:[1] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Service.QuartzServer property:[(null)] - 错误描述：Scheduler started successfully 
+2018-11-07 16:15:31,666 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job group commands. 
+2018-11-07 16:15:31,667 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger group commands. 
+2018-11-07 16:15:31,668 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job commands. 
+2018-11-07 16:15:31,669 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger commands. 
+2018-11-07 16:15:31,670 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'overwrite-existing-data' specified as: True 
+2018-11-07 16:15:31,671 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'ignore-duplicates' specified as: False 
+2018-11-07 16:15:31,673 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False 
+2018-11-07 16:15:31,680 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 1 job definitions. 
+2018-11-07 16:15:31,685 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed job definition: JobDetail 'sampleGroup.sampleJob':  jobType: 'QuartzNetCore.Zero.Server.Jobs.SampleJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: True requestsRecovers: False 
+2018-11-07 16:15:31,689 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 3 trigger definitions. 
+2018-11-07 16:15:31,699 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleSimpleGroup.sampleSimpleTrigger':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:15:31,723 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCronGroup.sampleCronTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:15:31,729 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger':  triggerClass: 'Quartz.Impl.Triggers.CalendarIntervalTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:15:31,784 线程ID:[5] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding 1 jobs, 3 triggers. 
+2018-11-07 16:15:31,790 线程ID:[5] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding job: sampleGroup.sampleJob 
+2018-11-07 16:15:31,802 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleSimpleGroup.sampleSimpleTrigger 
+2018-11-07 16:15:31,810 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCronGroup.sampleCronTrigger 
+2018-11-07 16:15:31,835 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger 
+2018-11-07 16:15:31,843 线程ID:[5] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler ServerScheduler_$_NON_CLUSTERED started. 
+2018-11-07 16:15:31,850 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:31,866 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:15:31,875 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:31,883 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:15:31,885 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:31,912 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:15:31,914 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:15:31,916 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:15:31,917 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:15:36,930 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:15:36,934 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:15:36,942 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:15:36,942 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:15:40,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:15:40,006 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:15:40,006 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:40,008 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:15:41,693 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:15:41,695 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:41,695 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:15:41,697 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:15:45,010 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:15:45,012 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:15:46,695 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:15:46,697 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:15:46,728 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:15:46,730 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:46,730 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:15:46,736 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:15:50,001 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:15:50,004 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:15:50,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:50,007 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:15:51,695 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:15:51,698 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:15:51,698 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:15:51,701 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:15:51,735 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:15:51,737 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:15:55,010 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:15:55,011 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:15:56,711 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:15:56,712 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:00,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:00,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:00,004 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:00,017 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:01,694 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:01,696 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:01,696 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:01,698 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:01,728 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:01,729 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:01,729 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:01,733 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:05,029 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:05,031 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:06,699 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:06,700 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:06,746 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:06,747 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:10,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:10,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:10,006 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:10,008 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:11,694 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:11,695 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:11,695 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:11,698 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:15,009 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:15,011 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:16,694 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:16,696 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:16,727 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:16,729 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:16,729 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:16,731 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:20,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:20,004 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:20,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:20,006 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:21,693 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:21,695 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:21,695 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:21,697 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:21,737 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:21,738 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:25,013 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:25,014 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:26,698 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:26,700 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:30,001 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:30,003 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:30,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:30,004 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:31,694 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:31,695 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:31,696 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:31,697 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:31,728 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:31,729 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:31,730 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:31,731 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:35,006 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:35,007 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:36,707 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:36,708 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:36,738 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:36,739 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:40,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:40,004 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:40,005 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:40,006 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:41,693 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:41,695 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:41,695 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:41,696 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:45,009 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:45,010 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:46,694 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:46,695 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:16:46,727 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:46,729 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:46,729 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:46,730 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:50,001 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:50,004 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:50,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:50,005 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:51,694 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:16:51,697 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:16:51,697 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:16:51,699 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:16:51,732 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:16:51,733 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:19:37,284 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Creating new instance of server type 'QuartzNetCore.Zero.Server.Service.QuartzServer, QuartzNetCore.Zero.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' 
+2018-11-07 16:19:37,351 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Instance successfully created 
+2018-11-07 16:19:37,665 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz.NET properties loaded from configuration file 'E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config' 
+2018-11-07 16:19:37,792 线程ID:[1] 日志级别：WARN  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：RemotingSchedulerExporter configuration was ignored as Remoting is not supported 
+2018-11-07 16:19:37,798 线程ID:[1] 日志级别：DEBUG 出错类：Quartz.Simpl.TaskSchedulingThreadPool property:[(null)] - 错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018-11-07 16:19:37,843 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.SchedulerSignalerImpl property:[(null)] - 错误描述：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018-11-07 16:19:37,921 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Quartz Scheduler v.3.0.7.0 created. 
+2018-11-07 16:19:37,926 线程ID:[1] 日志级别：INFO  出错类：Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin property:[(null)] - 错误描述：Registering Quartz Job Initialization Plug-in. 
+2018-11-07 16:19:37,930 线程ID:[1] 日志级别：INFO  出错类：Quartz.Simpl.RAMJobStore property:[(null)] - 错误描述：RAMJobStore initialized. 
+2018-11-07 16:19:37,936 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-11-07 16:19:37,938 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler 'ServerScheduler' initialized 
+2018-11-07 16:19:37,939 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler version: 3.0.7.0 
+2018-11-07 16:19:38,196 线程ID:[1] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsing XML file: E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml with systemId: ~/quartz_jobs.xml 
+2018-11-07 16:19:38,304 线程ID:[1] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Service.QuartzServer property:[(null)] - 错误描述：Scheduler started successfully 
+2018-11-07 16:19:38,593 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job group commands. 
+2018-11-07 16:19:38,595 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger group commands. 
+2018-11-07 16:19:38,596 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job commands. 
+2018-11-07 16:19:38,597 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger commands. 
+2018-11-07 16:19:38,598 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'overwrite-existing-data' specified as: True 
+2018-11-07 16:19:38,599 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'ignore-duplicates' specified as: False 
+2018-11-07 16:19:38,600 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False 
+2018-11-07 16:19:38,602 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 1 job definitions. 
+2018-11-07 16:19:38,610 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed job definition: JobDetail 'sampleGroup.sampleJob':  jobType: 'QuartzNetCore.Zero.Server.Jobs.SampleJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: True requestsRecovers: False 
+2018-11-07 16:19:38,612 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 3 trigger definitions. 
+2018-11-07 16:19:38,620 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleSimpleGroup.sampleSimpleTrigger':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:19:38,647 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCronGroup.sampleCronTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:19:38,652 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger':  triggerClass: 'Quartz.Impl.Triggers.CalendarIntervalTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:19:38,698 线程ID:[4] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding 1 jobs, 3 triggers. 
+2018-11-07 16:19:38,704 线程ID:[4] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding job: sampleGroup.sampleJob 
+2018-11-07 16:19:38,714 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleSimpleGroup.sampleSimpleTrigger 
+2018-11-07 16:19:38,723 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCronGroup.sampleCronTrigger 
+2018-11-07 16:19:38,749 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger 
+2018-11-07 16:19:38,756 线程ID:[4] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler ServerScheduler_$_NON_CLUSTERED started. 
+2018-11-07 16:19:38,766 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:38,779 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:19:38,787 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:38,797 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:19:38,799 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:38,825 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:19:38,825 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:19:38,827 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:19:38,827 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:19:40,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:19:40,004 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:19:40,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:40,005 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:19:43,851 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:19:43,852 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:19:43,861 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:19:43,861 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:19:45,015 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:19:45,017 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:19:48,614 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:19:48,616 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:19:48,616 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:48,617 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:19:50,001 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:19:50,003 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:19:50,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:50,004 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:19:53,627 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:19:53,632 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:19:53,651 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:19:53,653 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:19:53,653 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:53,654 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:19:55,022 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:19:55,023 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:19:58,614 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:19:58,616 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:19:58,616 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:19:58,617 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:19:58,657 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:19:58,658 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:00,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:00,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:00,018 线程ID:[8] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:00,020 线程ID:[8] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:03,626 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:03,628 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:05,022 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:05,023 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:08,615 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:08,617 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:08,617 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:08,619 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:08,650 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:08,652 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:08,652 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:08,654 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:10,001 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:10,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:10,003 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:10,005 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:13,628 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:13,630 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:13,660 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:13,661 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:15,002 线程ID:[8] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:15,003 线程ID:[8] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:18,614 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:18,616 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:18,616 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:18,618 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:20,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:20,003 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:20,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:20,005 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:23,630 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:23,632 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:23,650 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:23,652 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:23,652 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:23,655 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:25,022 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:25,024 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:28,615 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:28,616 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:28,616 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:28,618 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:28,649 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:28,651 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:30,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:30,004 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:30,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:30,006 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:33,627 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:33,628 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:35,015 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:35,017 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:38,614 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:38,616 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:38,616 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:38,618 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:38,652 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:38,654 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:38,654 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:38,655 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:40,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:40,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:40,003 线程ID:[8] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:40,005 线程ID:[8] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:43,627 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:43,629 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:43,659 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:43,660 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:45,017 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:45,019 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:48,615 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:48,616 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:48,616 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:48,617 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:50,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:50,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:50,004 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:50,008 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:53,628 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:53,630 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:53,650 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:53,652 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:53,652 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:53,654 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:55,014 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:55,016 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:20:58,614 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:20:58,616 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:20:58,616 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:20:58,618 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:20:58,668 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:20:58,670 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:21:00,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:21:00,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:21:00,003 线程ID:[8] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:21:00,005 线程ID:[8] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:21:18,260 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Creating new instance of server type 'QuartzNetCore.Zero.Server.Service.QuartzServer, QuartzNetCore.Zero.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' 
+2018-11-07 16:21:18,587 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Instance successfully created 
+2018-11-07 16:21:19,060 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz.NET properties loaded from configuration file 'E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config' 
+2018-11-07 16:21:19,212 线程ID:[1] 日志级别：WARN  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：RemotingSchedulerExporter configuration was ignored as Remoting is not supported 
+2018-11-07 16:21:19,218 线程ID:[1] 日志级别：DEBUG 出错类：Quartz.Simpl.TaskSchedulingThreadPool property:[(null)] - 错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018-11-07 16:21:19,246 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.SchedulerSignalerImpl property:[(null)] - 错误描述：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018-11-07 16:21:19,484 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Quartz Scheduler v.3.0.7.0 created. 
+2018-11-07 16:21:19,492 线程ID:[1] 日志级别：INFO  出错类：Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin property:[(null)] - 错误描述：Registering Quartz Job Initialization Plug-in. 
+2018-11-07 16:21:19,500 线程ID:[1] 日志级别：INFO  出错类：Quartz.Simpl.RAMJobStore property:[(null)] - 错误描述：RAMJobStore initialized. 
+2018-11-07 16:21:19,506 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-11-07 16:21:19,507 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler 'ServerScheduler' initialized 
+2018-11-07 16:21:19,508 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler version: 3.0.7.0 
+2018-11-07 16:21:19,766 线程ID:[1] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsing XML file: E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml with systemId: ~/quartz_jobs.xml 
+2018-11-07 16:21:19,785 线程ID:[1] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Service.QuartzServer property:[(null)] - 错误描述：Scheduler started successfully 
+2018-11-07 16:21:20,269 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job group commands. 
+2018-11-07 16:21:20,272 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger group commands. 
+2018-11-07 16:21:20,273 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job commands. 
+2018-11-07 16:21:20,274 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger commands. 
+2018-11-07 16:21:20,275 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'overwrite-existing-data' specified as: True 
+2018-11-07 16:21:20,277 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'ignore-duplicates' specified as: False 
+2018-11-07 16:21:20,278 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False 
+2018-11-07 16:21:20,279 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 1 job definitions. 
+2018-11-07 16:21:20,284 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed job definition: JobDetail 'sampleGroup.sampleJob':  jobType: 'QuartzNetCore.Zero.Server.Jobs.SampleJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: True requestsRecovers: False 
+2018-11-07 16:21:20,288 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 3 trigger definitions. 
+2018-11-07 16:21:20,296 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleSimpleGroup.sampleSimpleTrigger':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:21:20,320 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCronGroup.sampleCronTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:21:20,326 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger':  triggerClass: 'Quartz.Impl.Triggers.CalendarIntervalTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:21:20,373 线程ID:[6] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding 1 jobs, 3 triggers. 
+2018-11-07 16:21:20,379 线程ID:[6] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding job: sampleGroup.sampleJob 
+2018-11-07 16:21:20,390 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleSimpleGroup.sampleSimpleTrigger 
+2018-11-07 16:21:20,400 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCronGroup.sampleCronTrigger 
+2018-11-07 16:21:20,426 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger 
+2018-11-07 16:21:20,439 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:21:20,451 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:21:20,455 线程ID:[6] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler ServerScheduler_$_NON_CLUSTERED started. 
+2018-11-07 16:21:20,460 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:21:20,464 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:21:20,466 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:21:20,473 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:21:20,474 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:21:20,493 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:21:20,494 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:21:20,504 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:21:20,494 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:21:20,505 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:21:20,507 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:21:25,515 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:21:25,515 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:21:25,515 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:21:25,523 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:21:25,525 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:21:25,524 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:26,486 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Creating new instance of server type 'QuartzNetCore.Zero.Server.Service.QuartzServer, QuartzNetCore.Zero.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' 
+2018-11-07 16:22:26,605 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Instance successfully created 
+2018-11-07 16:22:27,224 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz.NET properties loaded from configuration file 'E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config' 
+2018-11-07 16:22:27,452 线程ID:[1] 日志级别：WARN  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：RemotingSchedulerExporter configuration was ignored as Remoting is not supported 
+2018-11-07 16:22:27,458 线程ID:[1] 日志级别：DEBUG 出错类：Quartz.Simpl.TaskSchedulingThreadPool property:[(null)] - 错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018-11-07 16:22:27,523 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.SchedulerSignalerImpl property:[(null)] - 错误描述：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018-11-07 16:22:27,670 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Quartz Scheduler v.3.0.7.0 created. 
+2018-11-07 16:22:27,677 线程ID:[1] 日志级别：INFO  出错类：Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin property:[(null)] - 错误描述：Registering Quartz Job Initialization Plug-in. 
+2018-11-07 16:22:27,682 线程ID:[1] 日志级别：INFO  出错类：Quartz.Simpl.RAMJobStore property:[(null)] - 错误描述：RAMJobStore initialized. 
+2018-11-07 16:22:27,689 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-11-07 16:22:27,699 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler 'ServerScheduler' initialized 
+2018-11-07 16:22:27,703 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler version: 3.0.7.0 
+2018-11-07 16:22:27,823 线程ID:[1] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsing XML file: E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml with systemId: ~/quartz_jobs.xml 
+2018-11-07 16:22:27,920 线程ID:[1] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Service.QuartzServer property:[(null)] - 错误描述：Scheduler started successfully 
+2018-11-07 16:22:28,316 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job group commands. 
+2018-11-07 16:22:28,318 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger group commands. 
+2018-11-07 16:22:28,319 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job commands. 
+2018-11-07 16:22:28,321 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger commands. 
+2018-11-07 16:22:28,323 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'overwrite-existing-data' specified as: True 
+2018-11-07 16:22:28,325 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'ignore-duplicates' specified as: False 
+2018-11-07 16:22:28,332 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False 
+2018-11-07 16:22:28,334 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 1 job definitions. 
+2018-11-07 16:22:28,339 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed job definition: JobDetail 'sampleGroup.sampleJob':  jobType: 'QuartzNetCore.Zero.Server.Jobs.SampleJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: True requestsRecovers: False 
+2018-11-07 16:22:28,340 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 3 trigger definitions. 
+2018-11-07 16:22:28,347 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleSimpleGroup.sampleSimpleTrigger':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:22:28,370 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCronGroup.sampleCronTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:22:28,375 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger':  triggerClass: 'Quartz.Impl.Triggers.CalendarIntervalTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:22:28,455 线程ID:[4] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding 1 jobs, 3 triggers. 
+2018-11-07 16:22:28,461 线程ID:[4] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding job: sampleGroup.sampleJob 
+2018-11-07 16:22:28,472 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleSimpleGroup.sampleSimpleTrigger 
+2018-11-07 16:22:28,483 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCronGroup.sampleCronTrigger 
+2018-11-07 16:22:28,507 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger 
+2018-11-07 16:22:28,515 线程ID:[4] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler ServerScheduler_$_NON_CLUSTERED started. 
+2018-11-07 16:22:28,524 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:28,538 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:28,546 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:28,553 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:28,555 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:28,584 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:28,586 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:28,593 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:28,595 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:30,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:30,003 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:30,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:30,005 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:33,595 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:33,595 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:33,604 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:33,604 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:35,015 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:35,016 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:38,344 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:38,346 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:38,346 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:38,347 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:40,001 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:40,003 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:40,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:40,004 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:43,360 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:43,361 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:43,373 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:43,374 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:43,374 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:43,376 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:45,016 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:45,017 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:48,344 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:48,345 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:48,345 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:48,347 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:48,382 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:48,383 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:50,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:50,003 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:50,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:50,005 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:53,361 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:53,363 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:55,015 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:22:55,016 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:22:58,343 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:58,345 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:58,345 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:58,346 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:22:58,373 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:22:58,375 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:22:58,375 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:22:58,377 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:23:00,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:23:00,003 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:23:00,013 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:23:00,014 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:23:03,363 线程ID:[8] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:23:03,364 线程ID:[8] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:23:03,387 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:23:03,388 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:23:05,010 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:23:05,012 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:24:43,757 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Creating new instance of server type 'QuartzNetCore.Zero.Server.Service.QuartzServer, QuartzNetCore.Zero.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' 
+2018-11-07 16:24:43,961 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Instance successfully created 
+2018-11-07 16:24:44,895 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz.NET properties loaded from configuration file 'E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config' 
+2018-11-07 16:24:45,123 线程ID:[1] 日志级别：WARN  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：RemotingSchedulerExporter configuration was ignored as Remoting is not supported 
+2018-11-07 16:24:45,131 线程ID:[1] 日志级别：DEBUG 出错类：Quartz.Simpl.TaskSchedulingThreadPool property:[(null)] - 错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018-11-07 16:24:45,191 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.SchedulerSignalerImpl property:[(null)] - 错误描述：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018-11-07 16:24:45,489 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Quartz Scheduler v.3.0.7.0 created. 
+2018-11-07 16:24:45,496 线程ID:[1] 日志级别：INFO  出错类：Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin property:[(null)] - 错误描述：Registering Quartz Job Initialization Plug-in. 
+2018-11-07 16:24:45,500 线程ID:[1] 日志级别：INFO  出错类：Quartz.Simpl.RAMJobStore property:[(null)] - 错误描述：RAMJobStore initialized. 
+2018-11-07 16:24:45,512 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-11-07 16:24:45,515 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler 'ServerScheduler' initialized 
+2018-11-07 16:24:45,518 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler version: 3.0.7.0 
+2018-11-07 16:24:45,599 线程ID:[1] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsing XML file: E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml with systemId: ~/quartz_jobs.xml 
+2018-11-07 16:24:45,658 线程ID:[1] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Service.QuartzServer property:[(null)] - 错误描述：Scheduler started successfully 
+2018-11-07 16:24:45,833 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job group commands. 
+2018-11-07 16:24:45,835 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger group commands. 
+2018-11-07 16:24:45,837 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job commands. 
+2018-11-07 16:24:45,838 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger commands. 
+2018-11-07 16:24:45,840 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'overwrite-existing-data' specified as: True 
+2018-11-07 16:24:45,841 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'ignore-duplicates' specified as: False 
+2018-11-07 16:24:45,842 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False 
+2018-11-07 16:24:45,843 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 1 job definitions. 
+2018-11-07 16:24:45,847 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed job definition: JobDetail 'sampleGroup.sampleJob':  jobType: 'QuartzNetCore.Zero.Server.Jobs.SampleJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: True requestsRecovers: False 
+2018-11-07 16:24:45,848 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 3 trigger definitions. 
+2018-11-07 16:24:45,856 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleSimpleGroup.sampleSimpleTrigger':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:24:45,880 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCronGroup.sampleCronTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:24:45,884 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger':  triggerClass: 'Quartz.Impl.Triggers.CalendarIntervalTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:24:45,931 线程ID:[6] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding 1 jobs, 3 triggers. 
+2018-11-07 16:24:45,935 线程ID:[6] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding job: sampleGroup.sampleJob 
+2018-11-07 16:24:45,945 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleSimpleGroup.sampleSimpleTrigger 
+2018-11-07 16:24:45,954 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCronGroup.sampleCronTrigger 
+2018-11-07 16:24:45,976 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger 
+2018-11-07 16:24:45,982 线程ID:[6] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler ServerScheduler_$_NON_CLUSTERED started. 
+2018-11-07 16:24:45,989 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:24:46,001 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:24:46,009 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:24:46,016 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:24:46,018 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:24:46,041 线程ID:[6] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:24:46,041 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:24:46,043 线程ID:[6] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:24:46,043 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:24:50,003 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:24:50,004 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:24:50,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:24:50,006 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:24:51,045 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:24:51,045 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:24:51,053 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:24:51,053 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:25:15,563 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Creating new instance of server type 'QuartzNetCore.Zero.Server.Service.QuartzServer, QuartzNetCore.Zero.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' 
+2018-11-07 16:25:15,679 线程ID:[1] 日志级别：DEBUG 出错类：QuartzNetCore.Zero.Server.Service.QuartzServerFactory property:[(null)] - 错误描述：Instance successfully created 
+2018-11-07 16:25:16,210 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz.NET properties loaded from configuration file 'E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config' 
+2018-11-07 16:25:16,703 线程ID:[1] 日志级别：WARN  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：RemotingSchedulerExporter configuration was ignored as Remoting is not supported 
+2018-11-07 16:25:16,711 线程ID:[1] 日志级别：DEBUG 出错类：Quartz.Simpl.TaskSchedulingThreadPool property:[(null)] - 错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018-11-07 16:25:16,829 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.SchedulerSignalerImpl property:[(null)] - 错误描述：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018-11-07 16:25:16,974 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Quartz Scheduler v.3.0.7.0 created. 
+2018-11-07 16:25:16,981 线程ID:[1] 日志级别：INFO  出错类：Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin property:[(null)] - 错误描述：Registering Quartz Job Initialization Plug-in. 
+2018-11-07 16:25:16,985 线程ID:[1] 日志级别：INFO  出错类：Quartz.Simpl.RAMJobStore property:[(null)] - 错误描述：RAMJobStore initialized. 
+2018-11-07 16:25:16,993 线程ID:[1] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-11-07 16:25:16,995 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler 'ServerScheduler' initialized 
+2018-11-07 16:25:16,997 线程ID:[1] 日志级别：INFO  出错类：Quartz.Impl.StdSchedulerFactory property:[(null)] - 错误描述：Quartz scheduler version: 3.0.7.0 
+2018-11-07 16:25:17,127 线程ID:[1] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsing XML file: E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml with systemId: ~/quartz_jobs.xml 
+2018-11-07 16:25:17,180 线程ID:[1] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Service.QuartzServer property:[(null)] - 错误描述：Scheduler started successfully 
+2018-11-07 16:25:17,459 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job group commands. 
+2018-11-07 16:25:17,462 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger group commands. 
+2018-11-07 16:25:17,463 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete job commands. 
+2018-11-07 16:25:17,465 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 0 delete trigger commands. 
+2018-11-07 16:25:17,467 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'overwrite-existing-data' specified as: True 
+2018-11-07 16:25:17,470 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'ignore-duplicates' specified as: False 
+2018-11-07 16:25:17,472 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False 
+2018-11-07 16:25:17,474 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 1 job definitions. 
+2018-11-07 16:25:17,479 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed job definition: JobDetail 'sampleGroup.sampleJob':  jobType: 'QuartzNetCore.Zero.Server.Jobs.SampleJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: True requestsRecovers: False 
+2018-11-07 16:25:17,480 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Found 3 trigger definitions. 
+2018-11-07 16:25:17,492 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleSimpleGroup.sampleSimpleTrigger':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:25:17,528 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCronGroup.sampleCronTrigger':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:25:17,532 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Parsed trigger definition: Trigger 'sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger':  triggerClass: 'Quartz.Impl.Triggers.CalendarIntervalTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime:  
+2018-11-07 16:25:17,575 线程ID:[5] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding 1 jobs, 3 triggers. 
+2018-11-07 16:25:17,581 线程ID:[5] 日志级别：INFO  出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Adding job: sampleGroup.sampleJob 
+2018-11-07 16:25:17,590 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleSimpleGroup.sampleSimpleTrigger 
+2018-11-07 16:25:17,599 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCronGroup.sampleCronTrigger 
+2018-11-07 16:25:17,626 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Xml.XMLSchedulingDataProcessor property:[(null)] - 错误描述：Scheduling job: sampleGroup.sampleJob with trigger: sampleCalendarIntervalGroup.sampleCalendarIntervalTrigger 
+2018-11-07 16:25:17,633 线程ID:[5] 日志级别：INFO  出错类：Quartz.Core.QuartzScheduler property:[(null)] - 错误描述：Scheduler ServerScheduler_$_NON_CLUSTERED started. 
+2018-11-07 16:25:17,639 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:25:17,652 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:25:17,662 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:25:17,669 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:25:17,671 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:25:17,695 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:25:17,697 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:25:17,695 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:25:17,701 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:25:20,002 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Simpl.SimpleJobFactory property:[(null)] - 错误描述：Producing instance of Job 'sampleGroup.sampleJob', class=QuartzNetCore.Zero.Server.Jobs.SampleJob 
+2018-11-07 16:25:20,003 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Calling Execute on job sampleGroup.sampleJob 
+2018-11-07 16:25:20,004 线程ID:[3] 日志级别：DEBUG 出错类：Quartz.Core.QuartzSchedulerThread property:[(null)] - 错误描述：Batch acquisition of 1 triggers 
+2018-11-07 16:25:20,005 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob running... 
+2018-11-07 16:25:22,696 线程ID:[5] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:25:22,704 线程ID:[5] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 
+2018-11-07 16:25:22,712 线程ID:[4] 日志级别：INFO  出错类：QuartzNetCore.Zero.Server.Jobs.SampleJob property:[(null)] - 错误描述：SampleJob run finished. 
+2018-11-07 16:25:22,715 线程ID:[4] 日志级别：DEBUG 出错类：Quartz.Core.JobRunShell property:[(null)] - 错误描述：Trigger instruction : NoInstruction 

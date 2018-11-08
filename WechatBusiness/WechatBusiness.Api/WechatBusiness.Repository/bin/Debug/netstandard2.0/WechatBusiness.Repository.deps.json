@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "90716410a5d89094db0038f007a40a8ac1975ee6"
+    "signature": "b0177bfaac4331925e8a2914686b0f3f71085812"
   },
   "compilationOptions": {},
   "targets": {
@@ -87,6 +87,14 @@
           "lib/netstandard1.5/Castle.Core.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.3.1.0"
+          }
+        }
+      },
+      "FluentScheduler/5.3.0": {
+        "runtime": {
+          "lib/netstandard1.4/FluentScheduler.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.0"
           }
         }
       },
@@ -1663,6 +1671,7 @@
         "dependencies": {
           "Autofac.Extras.DynamicProxy": "4.5.0",
           "Castle.Core": "4.3.1",
+          "FluentScheduler": "5.3.0",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.1",
           "Newtonsoft.Json": "11.0.2",
           "WechatBusiness.Api.ViewModels": "1.0.0",
@@ -1762,6 +1771,13 @@
       "sha512": "sha512-8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
       "path": "castle.core/4.3.1",
       "hashPath": "castle.core.4.3.1.nupkg.sha512"
+    },
+    "FluentScheduler/5.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a3A2UIsLN/qLsuSdSnfu7pvtV7MWKIKTRYcUqTvmELy+qM8RJb6cHkK3u5aykcFZP5j614cdMvxOlEJT1vrzLg==",
+      "path": "fluentscheduler/5.3.0",
+      "hashPath": "fluentscheduler.5.3.0.nupkg.sha512"
     },
     "log4net/2.0.8": {
       "type": "package",

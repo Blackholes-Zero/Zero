@@ -1,0 +1,14 @@
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.deps.json
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.runtimeconfig.json
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.runtimeconfig.dev.json
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.dll
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.csproj.CoreCompileInputs.cache
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.AssemblyInfoInputs.cache
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.AssemblyInfo.cs
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.pdb
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.dll
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.pdb
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\log4net.config
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.csprojAssemblyReference.cache

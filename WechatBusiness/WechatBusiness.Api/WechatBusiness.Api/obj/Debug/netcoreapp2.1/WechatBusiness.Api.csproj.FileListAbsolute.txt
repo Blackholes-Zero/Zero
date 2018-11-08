@@ -218,3 +218,5 @@ E:\Blackholes-Zero\WechatBusiness\WechatBusiness.Api\WechatBusiness.Api\obj\Debu
 E:\Blackholes-Zero\WechatBusiness\WechatBusiness.Api\WechatBusiness.Api\obj\Debug\netcoreapp2.1\WechatBusiness.Api.csproj.CopyComplete
 E:\Blackholes-Zero\WechatBusiness\WechatBusiness.Api\WechatBusiness.Api\obj\Debug\netcoreapp2.1\WechatBusiness.Api.dll
 E:\Blackholes-Zero\WechatBusiness\WechatBusiness.Api\WechatBusiness.Api\obj\Debug\netcoreapp2.1\WechatBusiness.Api.pdb
+E:\Blackholes-Zero\WechatBusiness\WechatBusiness.Api\WechatBusiness.Api\bin\Debug\netcoreapp2.1\Configs\log4net.config
+E:\Blackholes-Zero\WechatBusiness\WechatBusiness.Api\WechatBusiness.Api\bin\Debug\netcoreapp2.1\Configs\Autofac.json
