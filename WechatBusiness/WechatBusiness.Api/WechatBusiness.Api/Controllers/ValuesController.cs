@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using WechatBusiness.Api.ViewModels.ResultModels;
 
 namespace WechatBusiness.Api.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [Produces("application/json")]
     [ApiController]
     public class ValuesController : ControllerBase
@@ -20,6 +22,7 @@ namespace WechatBusiness.Api.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public ActionResult<string> Get(int id)
         {
             return "value";
@@ -42,5 +45,6 @@ namespace WechatBusiness.Api.Controllers
         public void Delete(int id)
         {
         }
+
     }
 }

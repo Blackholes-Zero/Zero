@@ -15,6 +15,7 @@ namespace NetCore.Framework
         private static string[] DEFAULT_COOKIE_KEYS = new string[] { "1qaz2wsx", "tgbnjity", "we5fw8jw,gegs", "fwj5963dd", "dfjeijg23,cd", "jgwoj901,yin", "e,wjjfe17", "18ddfe64s", "fwof7wefw", "dfervll,5" };
 
         #region Encrypt3DES
+
         /// <summary>
         /// 3DES加密
         /// </summary>
@@ -53,9 +54,11 @@ namespace NetCore.Framework
             }
             return result;
         }
-        #endregion
+
+        #endregion Encrypt3DES
 
         #region Decrypt3DES
+
         /// <summary>
         /// 3DES解密
         /// </summary>
@@ -94,9 +97,11 @@ namespace NetCore.Framework
             }
             return result;
         }
-        #endregion
+
+        #endregion Decrypt3DES
 
         #region EncryptMD5
+
         /// <summary>
         /// MD5加密
         /// </summary>
@@ -119,9 +124,26 @@ namespace NetCore.Framework
             //}
             //return strbud.ToString();
         }
-        #endregion
+
+        #endregion EncryptMD5
+
+        #region EncryptMD5+Salt
+
+        /// <summary>
+        /// EncryptMD5+Salt
+        /// </summary>
+        /// <param name="md5string"></param>
+        /// <param name="salt"></param>
+        /// <returns></returns>
+        public static string EncryptMD5Salt(string md5string, object salt)
+        {
+            return EncryptMD5(EncryptSaltFormat(md5string, salt));
+        }
+
+        #endregion EncryptMD5+Salt
 
         #region Encrypt
+
         /// <summary>
         /// 字符混淆
         /// </summary>
@@ -161,9 +183,11 @@ namespace NetCore.Framework
             }
             return source.ToArray<byte>();
         }
-        #endregion
+
+        #endregion Encrypt
 
         #region CookieEncode
+
         /// <summary>
         /// 格式化特殊字符
         /// </summary>
@@ -182,9 +206,11 @@ namespace NetCore.Framework
             }
             return encode;
         }
-        #endregion
+
+        #endregion CookieEncode
 
         #region CookieDecode
+
         /// <summary>
         /// 还原特殊字符
         /// </summary>
@@ -202,9 +228,11 @@ namespace NetCore.Framework
             }
             return str;
         }
-        #endregion
+
+        #endregion CookieDecode
 
         #region EncryptCookie
+
         /// <summary>
         /// Cookie加密
         /// </summary>
@@ -234,9 +262,11 @@ namespace NetCore.Framework
             }
             return buffer.ToString();
         }
-        #endregion
+
+        #endregion EncryptCookie
 
         #region DecryptCookie
+
         /// <summary>
         /// cookie解密
         /// </summary>
@@ -267,9 +297,11 @@ namespace NetCore.Framework
             }
             return Encoding.Unicode.GetString(buffer2);
         }
-        #endregion
+
+        #endregion DecryptCookie
 
         #region Base64Encode
+
         /// <summary>
         /// Base64加密
         /// </summary>
@@ -290,9 +322,11 @@ namespace NetCore.Framework
             }
             return encode;
         }
-        #endregion
+
+        #endregion Base64Encode
 
         #region Base64Decode
+
         /// <summary>
         /// Base64解密
         /// </summary>
@@ -313,6 +347,67 @@ namespace NetCore.Framework
             }
             return decode;
         }
-        #endregion
+
+        #endregion Base64Decode
+
+        #region SHA256+Salt
+
+        /// <summary>
+        /// SHA256+Salt 加盐加密
+        /// </summary>
+        /// <param name="shaEnString"></param>
+        /// <param name="salt"></param>
+        /// <returns></returns>
+        public static string Sha256EncryptSalt(string shaEnString, object salt)
+        {
+            // random salt
+            // you can also use RNGCryptoServiceProvider class
+            //System.Security.Cryptography.RNGCryptoServiceProvider rng = new System.Security.Cryptography.RNGCryptoServiceProvider();
+            //byte[] saltBytes = new byte[36];
+            //rng.GetBytes(saltBytes);
+            //string salt = Convert.ToBase64String(saltBytes);
+            //string salt = ToHexString(saltBytes);
+
+            byte[] passwordAndSaltBytes = System.Text.Encoding.UTF8.GetBytes(EncryptSaltFormat(shaEnString, salt));
+            byte[] hashBytes = new System.Security.Cryptography.SHA256Managed().ComputeHash(passwordAndSaltBytes);
+            string hashString = Convert.ToBase64String(hashBytes);
+            return hashString;
+        }
+
+        public static string ToHexString(byte[] bytes)
+        {
+            var hex = new StringBuilder();
+            foreach (byte b in bytes)
+            {
+                hex.AppendFormat("{0:x2}", b);
+            }
+            return hex.ToString();
+        }
+
+        #endregion SHA256+Salt
+
+        #region EncryptSaltFormat
+
+        /// <summary>
+        /// 字符串加盐规则
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="salt"></param>
+        /// <returns></returns>
+        private static string EncryptSaltFormat(string str, object salt)
+        {
+            if (null == salt || string.IsNullOrWhiteSpace(salt.ToString().Trim()))
+            {
+                throw new Exception("salt is Invalid");
+            }
+
+            if (null == str || string.IsNullOrWhiteSpace(str.ToString().Trim()))
+            {
+                throw new Exception("strparam is Invalid");
+            }
+            return $"^{str}|{salt.ToString().Trim()}^";
+        }
+
+        #endregion EncryptSaltFormat
     }
 }

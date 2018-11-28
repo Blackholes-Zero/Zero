@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NetCore.Framework.Cache;
+using NetCore.Framework.RabbitMQ;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -33,13 +34,15 @@ namespace WechatBusiness.Api.Controllers.Account
         private readonly IHostingEnvironment _environment;
         private readonly IMapper _mapper;
         private readonly ICacheHelper _cacheHelper;
+        private readonly RabbitMQHelper _rabbitMQHelper;
 
-        public AccountController(IAccountService accountService, IHostingEnvironment environment, IMapper mapper, ICacheHelper cacheHelper) : base(0)
+        public AccountController(IAccountService accountService, IHostingEnvironment environment, IMapper mapper, ICacheHelper cacheHelper, RabbitMQHelper rabbitMQHelper) : base(0)
         {
             this._accountService = accountService;
             this._environment = environment;
             this._mapper = mapper;
             this._cacheHelper = cacheHelper;
+            this._rabbitMQHelper = rabbitMQHelper;
         }
 
         /// <summary>
@@ -56,7 +59,7 @@ namespace WechatBusiness.Api.Controllers.Account
         }
 
         [HttpPost]
-        //[AllowAnonymous] //FromForm  -form -data x-wwww-form-urlencoded  [FromBody]:只能传递一个参数
+        [AllowAnonymous] //FromForm  -form -data x-wwww-form-urlencoded  [FromBody]:只能传递一个参数
         public async Task<IActionResult> AddUser(AdminUsersDto adminUsers)
         {
             var fileName = "";
@@ -125,8 +128,16 @@ namespace WechatBusiness.Api.Controllers.Account
             //    return Ok(result1);
             //}
             var result = ApiResultBase.GetInstance(ResultCode.Access, result: model);
-            return Ok(result);
+
+            _rabbitMQHelper.Send("hell word");
+
+            var ss= _rabbitMQHelper.Receive();
+
+
+            return Ok("1");
         }
+
+        
     }
 
     public class TechChangeSeachModel

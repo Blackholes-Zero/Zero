@@ -27,7 +27,7 @@ namespace NetCore.Framework
                 if (obj != null)
                 {
                     var sortDict = ObjectToSortDictionary(obj);
-                    var signStr = string.Concat(string.Join("|", sortDict.Values.Where(p => p!= null && p.ToString().Trim().Length > 0).Select(p => p.ToString()?.ToLower())), "|", SignKey);
+                    var signStr = string.Concat(string.Join("|", sortDict.Where(p => p.Value!= null && p.Value.ToString().Trim().Length > 0).Select(p => string.Concat(p.Key.ToString()?.ToLower(),"=",p.Value.ToString()))), "|", SignKey);
                     sign = EncryptDecrypt.EncryptMD5(signStr);
                 }
                 return sign;

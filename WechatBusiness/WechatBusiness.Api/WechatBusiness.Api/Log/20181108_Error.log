@@ -26,3 +26,4 @@
 2018-11-08 15:39:00,738 线程ID:[Worker #d9e5f9e7] 日志级别：ERROR 出错类：WechatBusiness.Api.Commons.TaskServer.Hangfire.HangfireTestJob property:[(null)] - 错误描述：HangfireTestJob开始定时任务了，现在时间是：2018/11/8 15:39:00 
 2018-11-08 15:40:00,747 线程ID:[Worker #223e8fb4] 日志级别：ERROR 出错类：WechatBusiness.Api.Commons.TaskServer.Hangfire.HangfireTestJob property:[(null)] - 错误描述：HangfireTestJob开始定时任务了，现在时间是：2018/11/8 15:40:00 
 2018-11-08 15:41:00,792 线程ID:[Worker #0ff99e63] 日志级别：ERROR 出错类：WechatBusiness.Api.Commons.TaskServer.Hangfire.HangfireTestJob property:[(null)] - 错误描述：HangfireTestJob开始定时任务了，现在时间是：2018/11/8 15:41:00 
+2018-11-08 15:42:00,892 线程ID:[Worker #f57c331d] 日志级别：ERROR 出错类：WechatBusiness.Api.Commons.TaskServer.Hangfire.HangfireTestJob property:[(null)] - 错误描述：HangfireTestJob开始定时任务了，现在时间是：2018/11/8 15:42:00 

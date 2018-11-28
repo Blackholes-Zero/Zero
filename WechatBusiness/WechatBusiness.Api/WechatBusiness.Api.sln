@@ -35,7 +35,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Framework", "..\..\NetCore.Framework\NetCore.Framework\NetCore.Framework.csproj", "{2DF53010-905F-4A6D-97D1-65B71DF083EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatBusiness.Api.AutoMappingProfiles", "WechatBusiness.Api.AutoMappingProfiles\WechatBusiness.Api.AutoMappingProfiles.csproj", "{8A576158-BA26-4183-9C90-D2C5A534856B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WechatBusiness.Api.AutoMappingProfiles", "WechatBusiness.Api.AutoMappingProfiles\WechatBusiness.Api.AutoMappingProfiles.csproj", "{8A576158-BA26-4183-9C90-D2C5A534856B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatBusiness.Api.Tests", "WechatBusiness.Api.Tests\WechatBusiness.Api.Tests.csproj", "{5D5F6933-EF4C-438A-ABC6-477365D1DA97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{8A576158-BA26-4183-9C90-D2C5A534856B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A576158-BA26-4183-9C90-D2C5A534856B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A576158-BA26-4183-9C90-D2C5A534856B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5F6933-EF4C-438A-ABC6-477365D1DA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5F6933-EF4C-438A-ABC6-477365D1DA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5F6933-EF4C-438A-ABC6-477365D1DA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5F6933-EF4C-438A-ABC6-477365D1DA97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -32,6 +32,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
 using NetCore.Framework.Cache;
+using NetCore.Framework.RabbitMQ;
 using Newtonsoft.Json;
 using Swashbuckle.AspNetCore.Swagger;
 using WechatBusiness.Api.AutoMappingProfiles;
@@ -155,7 +156,7 @@ namespace WechatBusiness.Api
             var controllerAssembly = baseController.GetTypeInfo().Assembly;
             services.AddMvc(options =>
             {
-                options.Filters.Add<ApiResourceFilter>();
+                //options.Filters.Add<ApiResourceFilter>();
                 options.Filters.Add<ApiExceptionFilter>();
                 options.Filters.Add<ApiActionFilter>();
                 options.Filters.Add(new ApiAuthorizationFilter());
@@ -203,6 +204,14 @@ namespace WechatBusiness.Api
             {
                 services.AddSingleton<ICacheHelper>(new MemoryCacheHelper(new MemoryCacheOptions()));
             }
+
+            //RabbitMQ
+            var rabbitMQAppSet = Configuration.GetSection("RabbitMQSettings").Get<RabbitMQSetting>();
+            if (rabbitMQAppSet.IsEnabled)
+            {
+                services.AddSingleton(new RabbitMQHelper(rabbitMQAppSet));
+            }
+
 
             //autofac
             var builder = new ContainerBuilder();

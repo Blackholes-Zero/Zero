@@ -61,7 +61,8 @@ namespace WechatBusiness.Api.Filter
             }
             finally
             {
-                keyValuePairs.AddRange(context.RouteData.Values?.ToList());
+                //keyValuePairs.AddRange(context.RouteData.Values?.ToList());
+                //keyValuePairs.AddRange(context.ActionDescriptor.Parameters);
             }
             if (!ValidateSign(keyValuePairs))
             {

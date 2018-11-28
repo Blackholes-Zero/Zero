@@ -12,3 +12,4 @@ E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug
 E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz.config
 E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\quartz_jobs.xml
 E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\obj\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.csprojAssemblyReference.cache
+E:\Blackholes-Zero\QuartzNetCore.Zero.Server\QuartzNetCore.Zero.Server\bin\Debug\netcoreapp2.1\QuartzNetCore.Zero.Server.dll.config
